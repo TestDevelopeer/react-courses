@@ -1,12 +1,19 @@
 import React from 'react';
-import { Button, Htag } from '../styles/components';
+import { Button, Htag, P, Tag } from '../styles/components';
 
 export default function Home(): JSX.Element {
 	return (
 		<>
 			<Htag tag='h1'>Текст</Htag>
 			<Button appearence='primary' arrow='right'>Кнопка</Button>
-			<Button appearence='ghost'>Кнопка</Button>
+			<Button appearence='ghost' arrow='down'>Кнопка</Button>
+			<P size='l'>Большой</P>
+			<P>Средний</P>
+			<P size='s'>Маленький</P>
+			<Tag size='s'>Ghost</Tag>
+			<Tag size='m' color='red'>Red</Tag>
+			<Tag size='s' color='green'>Green</Tag>
+			<Tag color='primary'>Primary</Tag>
 		</>
 	);
 }
