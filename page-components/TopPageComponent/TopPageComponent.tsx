@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { Advantages, Card, HhData, Htag, P, Sort, Tag } from '../../components';
+import { Advantages, HhData, Htag, Sort, Tag } from '../../components';
 import { TopPageComponentProps } from './TopPageComponent.props';
 import styles from './TopPageComponent.module.css';
 import { TopLevelCategory } from '../../interfaces/page.interface';
