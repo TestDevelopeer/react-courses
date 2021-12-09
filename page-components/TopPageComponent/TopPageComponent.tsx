@@ -10,7 +10,7 @@ export const TopPageComponent = ({ page, products, firstCategory }: TopPageCompo
 	const [{ products: sortedProducts, sort }, dispatchSort] = useReducer(sortReducer, { products, sort: SortEnum.Rating });
 
 	useEffect(() => {
-		dispatchSort({ type: 'reset', initialState: products });
+		dispatchSort({ type: SortEnum.Reset, initialState: products });
 	}, [products]);
 
 	const setSort = (sort: SortEnum) => {
@@ -26,7 +26,7 @@ export const TopPageComponent = ({ page, products, firstCategory }: TopPageCompo
 			</div>
 			<div>
 				{sortedProducts && sortedProducts.map(p => (
-					<Product key={p._id} product={p} />
+					<Product layout key={p._id} product={p} />
 				))}
 			</div>
 			<div className={styles.hhTitle}>
