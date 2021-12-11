@@ -36,6 +36,7 @@ export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
 				onKeyDown={(e: KeyboardEvent<HTMLInputElement>) => handleKeyDown(e)}
 			/>
 			<Button
+				aria-label='Search'
 				appearence="primary"
 				className={styles.button}
 				onClick={goToSearch}
