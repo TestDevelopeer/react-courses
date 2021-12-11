@@ -35,9 +35,5 @@ export interface TopPageModel {
 	advantages?: TopPageAdvantage[];
 	createdAt: Date;
 	updatedAt: Date;
-	__v: number;
 	hh?: HhData;
-	qas: any[];
-	addresses: any[];
-	categoryOn: string;
 }
