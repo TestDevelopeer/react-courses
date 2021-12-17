@@ -39,7 +39,7 @@ export const Menu = (): JSX.Element => {
 	};
 
 	useEffect(() => {
-		setMenu && setMenu(menu.map(m => {
+		menu && setMenu && setMenu(menu.map(m => {
 			if (m.pages.map(p => p.alias).includes(router.asPath.split('/')[2])) {
 				m.isOpened = true;
 			} else {

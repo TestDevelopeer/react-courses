@@ -1,8 +1,8 @@
 export enum TopLevelCategory {
 	Courses,
-	Services,
+	/*Services,
 	Books,
-	Products
+	Products*/
 }
 
 export interface TopPageAdvantage {
