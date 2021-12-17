@@ -22,16 +22,16 @@
 	background-color: var(--white);
 }
 
+.white svg * {
+	fill: var(--primary);
+}
+
 .primary:hover svg * {
 	fill: var(--primary);
 }
 
 .white {
 	background-color: var(--white);
-}
-
-.white svg * {
-	fill: var(--primary);
 }
 
 .white:hover {
