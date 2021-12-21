@@ -18,4 +18,4 @@ jobs:
           name: docker.pkg.github.com/TestDevelopeer/react-courses/react-courses
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-          tags: "develop"
+          tags: "develop 0.0.1"

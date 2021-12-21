@@ -1,6 +1,5 @@
 {
   "name": "react-courses",
-  "type": "module", 
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,6 +24,10 @@
     "react-hook-form": "^7.21.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
     "@svgr/webpack": "^6.1.2",
     "@types/node": "^16.11.11",
     "@types/react": "^17.0.37",
