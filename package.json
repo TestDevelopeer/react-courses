@@ -1,5 +1,6 @@
 {
   "name": "react-courses",
+  "type": "module",
   "private": true,
   "scripts": {
     "prepare": "husky install",
